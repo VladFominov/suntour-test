@@ -1,0 +1,89 @@
+.article {
+  padding-top: 30px;
+}
+
+.article__wrapper {
+  display: flex;
+  border-bottom: 1px solid $border;
+}
+
+.article__img {
+  padding-top: 340px;
+  margin-left: 37px;
+}
+
+.article__title {
+  @extend %Trebuchet;
+  margin-bottom: 47px;
+  font-size: 48px;
+    line-height: 1.3;
+}
+
+.article__desc {
+  font-size: 14px;
+    line-height: 1.4;
+  margin-bottom: 9px;
+}
+
+.article__subtitle {
+  font-size: 22px;
+    line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.article__text {
+  font-size: 14px;
+    line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.article__blockquote {
+  position: relative;
+  font-style: italic;
+  font-size: 14px;
+    line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  padding-left: 80px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0.7em;
+    top: -4px;
+    width: 8px;
+    height: 96px;
+    background: $accentColor;
+    font-size: 6em;
+    z-index: -1;
+  }
+}
+
+.article__sub {
+  font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+  margin-top: 24px;
+}
+
+.article__subtext {
+    font-size: 14px;
+      line-height: 1.4;
+  margin-top: 8px;
+}
+
+.article__conclusion {
+   font-size: 14px;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.article__conclusionlist {
+   font-size: 14px;
+        line-height: 1.4;
+  margin-top: 24px;
+  padding-left: 20px;
+  list-style: disc;
+  margin-bottom: 8px;
+}

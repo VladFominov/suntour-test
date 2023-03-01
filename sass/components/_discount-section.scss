@@ -1,0 +1,96 @@
+.discount{
+    padding-top: 25px;
+    padding-bottom: 30px;
+};
+
+.discount__wrapper{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $border;
+        border-radius: 6px;
+        padding: 35px 25px 35px 25px;
+
+        @media screen and (max-width: $mobile) {
+                width: 480px;
+                display: block;
+                
+            }
+        
+            ;
+};
+
+.discount__amount{
+    font-weight: 700;
+        font-size: 28px;
+        line-height: 1.2;
+        color: $accentColor;
+        text-align: center;
+};
+
+.discount__promocode{
+    font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $accentColor;
+        margin-bottom: 4px;
+};
+
+.discount__desc{
+    font-weight: 700;
+        font-size: 22px;
+        line-height: 1.3; 
+        color: $textColor;
+        margin-bottom: 8px;
+};
+
+.discount__text{
+    font-size: 14px;
+        line-height: 1.4;  
+        color: $textColor;
+}
+
+
+.discount__btn{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        padding: 13px 42px;
+        border: none;
+        gap: 8px;
+        color: $textColorSecondary;
+
+        background: linear-gradient(180deg, #00AAAA 0%, #008BAA 100%);
+            border-radius: 24px;
+
+            font-weight: 700;
+                font-size: 16px;
+                line-height: 1.3;
+                text-align: center;
+};
+
+.discount__details {
+    background-color: $bgColorSecondary;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+        line-height: 1.2;
+        
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+        background-image: url('../../images/akar-icons_chevron-up.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+};
+

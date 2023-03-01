@@ -1,0 +1,13 @@
+@mixin centeredFlex($type: flex) {
+    display: $type;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// приминение миксина
+// div{
+//     @include centerFlex()    
+// }
+// div {
+//     @include centerFlex(inline-flex)
+// }

@@ -1,0 +1,45 @@
+
+.hero__wrapper{
+    position: relative;
+}
+
+.hero__info{
+    position: absolute;
+    left: 32px;
+        bottom: 33px;
+    background: rgba(255, 242, 0, 0.7);
+    border-radius: 50%;
+    padding: 40px;
+width: 250px;
+    text-align: center;
+};
+
+.toure-info__desc{
+    @extend %Trebuchet;
+    font-size: 25px;
+        line-height: 1.2;
+            margin-bottom: 16px;
+};
+
+.toure-info__text{
+    @extend %Trebuchet;
+    font-size: 14px;
+        line-height: 1.1;
+        margin-bottom: 7px;
+};
+
+.toure-info__code{
+    @extend %Trebuchet;
+    font-size: 24px;
+        line-height: 1.2;
+    margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+    width: 99px;
+        color: #FFFFFF;
+        border: 1px solid #000000;
+        background: #000;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       
+}

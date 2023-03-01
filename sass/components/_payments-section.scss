@@ -1,0 +1,78 @@
+.payments{
+    margin-top: 24px;
+}
+
+.payments__table{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+}
+
+.table__header{
+    background:$bgColorSecondary;
+    border: 0px solid #E0E0E0;
+    width: 100%;
+display: flex;
+     align-items: flex-start;
+    padding: 8px 0px;
+    gap: 10px;
+    width: 744px;
+        height: 64px;
+        font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height:1.4;
+            letter-spacing: 0.1px;
+};
+
+.table__head{
+    display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 8px;
+    
+        width: 186px;
+        height: 48px;
+};
+
+.table__body{
+    display: flex;
+    flex-direction: column;
+    @extend %gap;
+
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+}
+
+.table__row{
+     display: flex;
+    &:not(:last-child) {
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+     justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+        
+}
+
+.table__data{
+    display: flex;
+    letter-spacing: 0.1px;
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        
+        align-items: center;
+        padding: 0px 8px;
+        width: 186px;
+        height: 50px;
+}

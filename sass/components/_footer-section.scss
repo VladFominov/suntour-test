@@ -1,0 +1,24 @@
+.footer{
+  
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer__wrapper{
+    display: flex;
+        justify-content: space-between;
+    align-items: center;
+    
+};
+
+.footer__text{
+display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
